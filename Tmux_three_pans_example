@@ -1,0 +1,12 @@
+
+tmux new-window -n "Local Window" 
+tmux select-pane -t 0
+tmux send-keys "cd /home/user/the_rest_of_path1" C-m
+tmux split-window -v
+tmux select-pane -t 1
+tmux send-keys  "cd /home/user/the_rest_of_path2" C-m 
+tmux select-layout tiled
+tmux split-window -v 
+tmux select-pane -t 2
+tmux send-keys "cd cd /home/user/the_rest_of_path3" C-m
+tmux select-layout tiled
