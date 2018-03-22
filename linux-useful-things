@@ -1,0 +1,2 @@
+%% choose the    java version  need to  be  activated  you  have  only  one  choice  to  pick  from  the  list
+sudo update-alternatives --config java
